@@ -1,3 +1,9 @@
+/* The code below implements one of the simplest and most widely known ciphers: the 'Caesar cipher', also known as a shift cipher. 
+In a shift cipher the meanings of the letters are shifted by some set amount.
+A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. 
+Thus A ↔ N, B ↔ O and so on. */
+
+
 //This first function checks a letter and returns the corresponding cipher letter from the alphabet
 
 function letter(l) {
